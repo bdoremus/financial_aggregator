@@ -1,5 +1,6 @@
+.env
+
 chromedriver
 venv/
-.env
 .idea/
 temp_selenium.profile
