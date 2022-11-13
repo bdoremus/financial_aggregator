@@ -39,7 +39,7 @@ def usaa_login(driver: object, member_id: str, password: str, pin: str) -> None:
     Returns:
         None: driver state is logged in to USAA
     """
-    wait_time = 3  # seconds
+    wait_time = 5  # seconds
     usaa_url = 'https://www.usaa.com/my/logon'
     driver.get(usaa_url)
 
